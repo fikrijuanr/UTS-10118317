@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_aboutUs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Tentang"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/img_aboutUs"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_below="@+id/text_aboutUs"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/text_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/img_aboutUs"
+        android:text="Aplikasi GNote" />
+
+    <TextView
+        android:id="@+id/text_nim"
+        android:layout_width="321dp"
+        android:layout_height="246dp"
+        android:layout_below="@+id/text_nama"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:text="Merupakan aplikasi catatan yang berfungsi untuk menambah, menghapus serta mengupdate data. Aplikasi ini dibuat bertujuan untuk memenuhi tugas pengganti UTS mata kuliah Aplikasi Komputasi Bergerak"
+        android:textAlignment="center" />
+    <TextView
+        android:id="@+id/text_k"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_nim"
+        android:text="v0.1" />
+
+    <TextView
+        android:id="@+id/text_kelas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/text_k"
+        android:text="Copyright (c) 2021, Google Inc. All rights reserved." />
+
+
+</RelativeLayout>
